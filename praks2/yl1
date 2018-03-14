@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# Tervitusskript
+#
+echo -n "Tere, " #Väljastab ilma reavahetuseta
+echo -n "$USER" #Väljastab kasutajanime reavahetuseta
+echo -e "\n!" #Väljastab ! reavahetusega
+#
+# Skript lõppes
+
