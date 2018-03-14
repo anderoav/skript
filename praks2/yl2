@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# Ülesanne2
+#
+echo -e "Andero Avastu" #Väljastab antud kirja reavahetusega
+echo -e "ISP117" # Väljastab antud kirja reavahetusega
+echo -n "Mulle väga meeldib selline aine, " #Väljastab antud kirja reavahetusega
+echo "Väga huvitav!" # Väljastab antud kirja reavahetuseta
+#
+# Skript lõppes
+
