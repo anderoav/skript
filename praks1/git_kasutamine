@@ -35,3 +35,4 @@ git commit -m "lühikirjelduse lause"
 
 c) lisa kaugrepositooriumi
 git push -uf skriptimine master
+
