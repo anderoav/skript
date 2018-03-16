@@ -3,8 +3,9 @@
 # Tervitusskript
 #
 echo -n "Tere, " #Väljastab ilma reavahetuseta
-echo -n "$USER" #Väljastab kasutajanime reavahetuseta
-echo -e "\n!" #Väljastab ! reavahetusega
+echo -n `whoami | cut -c1 | tr [:lower:] [:upper:]` #Väljastab esinime esi tähe suurelt
+echo -n `whoami | cut -c2-` #Väljastab nime ülejäänud tähed väikeselt
+echo -e "!" #Väljastab ! reavahetusega
 #
 # Skript lõppes
 
