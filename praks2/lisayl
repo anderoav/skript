@@ -1,0 +1,17 @@
+#!/bin/bash
+#
+# LisaYL
+#
+echo -e `uname`
+echo -e `uname -v`
+echo -e `uname -r`
+echo -e `uname -m`
+echo -e `uname -n`
+echo -e `ip addr | grep "inet 172"`
+echo -e `who`
+echo -e `free -m | more +2`
+echo -e `df`
+echo -e `who -b`
+#
+# Skript lõppes
+
