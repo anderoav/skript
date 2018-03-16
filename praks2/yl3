@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# Ülesanne2
+#
+who | cut -f1 -d" " | cut -f2 -d"." > perenimi #lõikame perenime - see on 2. element peale punkti ja salvestame faili
+who | cut -f1 -d" " | cut -f1 -d"." > eesnimi # lõikame eesnime -see on 1. element ennem punkti ja salvestame faili
+paste -d"-" perenimi eesnimi > nimed # kleebime need failid vastavas järjekorras kokku
+awk '//{print}' nimed | sort | uniq # sorteerime väljundi ja võtame korduvad välja
+#
+# Skript lõppes
+
