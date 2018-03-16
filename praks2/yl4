@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# Ülesanne5
+#
+echo -e "Andero Avastu" #väljastab antud teksti
+echo -e "ISP117" #väljastab antud teksti uuelt realt
+echo -e "Väga huvitav" #väljastab antud teksti uuelt realt
+echo -e "Tundub hea!" #väljastab antud teksti uuelt realt
+#
+# Skript lõppes
+
