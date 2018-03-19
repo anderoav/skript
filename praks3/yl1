@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# Ülesanne1
+#
+echo -n 'Today is '
+date "+%A, %B %d, %Y"
+echo -n "Time is "
+date "+%T"
+echo -n "Calendar of "
+cal
+#
+# Skript lõppes
+
