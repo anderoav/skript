@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# Ülesanne1
+#
+echo -n "Sisesta oma ees- ja perenimi: "
+read eesnimi perenimi
+echo "Tere tulemast, $eesnimi $perenimi"
+#
+# Skript lõppes
+
