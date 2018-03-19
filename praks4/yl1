@@ -2,9 +2,9 @@
 #
 # Ülesanne1
 #
-echo -n "Sisesta oma ees- ja perenimi: "
-read eesnimi perenimi
-echo "Tere tulemast, $eesnimi $perenimi"
+echo -n "Sisesta oma ees- ja perenimi: " #väljastab selle teksti
+read eesnimi perenimi #võtab ees  ja pere nime
+echo "Tere tulemast, $eesnimi $perenimi" #väljastab saadud andmed
 #
 # Skript lõppes
 
