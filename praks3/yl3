@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# Ülesanne3
+#
+echo -n `hostname` #väljastab hosti nime
+echo -n " at " #kirjutab at
+echo -e `uptime | cut -f1 -d","` #lõikab välja vastava teksti osa uptimest
+
+#
+# Skript lõppes
+
