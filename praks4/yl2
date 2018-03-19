@@ -1,0 +1,15 @@
+#!/bin/bash
+#
+# Ülesanne2
+#
+echo -n "Sisesta aluskandiku pikkus ja laius: "
+read pikkus laius
+echo -n "Kui suuri küpsiseid kasutatakse(cm külg)?: "
+read kypsis
+echo -n "Mitu kihti teete?: "
+read kiht
+echo -n "Mitu küpsist on pakis?: "
+read pakis
+echo "Poest tuleb osta" `expr  $pikkus \* $laius  / $kypsis \* $kypsis \* $kiht / $pakis` "pakki"
+# Skript lõppes
+
