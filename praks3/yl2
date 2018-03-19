@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+# Ülesanne2
+#
+find /var -name \*.log 2> ./error  -exec wc -l {} +| sort -rn | cut -f2,3,4 -d"/" | grep "var"  #otsib .log faile paneb lubatud failid järgmisele käsule mis sorteerib need ridade järgi
+#
+# Skript lõppes
+
