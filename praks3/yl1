@@ -2,12 +2,12 @@
 #
 # Ülesanne1
 #
-echo -n 'Today is '
-date "+%A, %B %d, %Y"
-echo -n "Time is "
-date "+%T"
-echo -n "Calendar of "
-cal
+echo -n 'Today is ' #Prindib Today is
+date "+%A, %B %d, %Y" #Prindib Päeva , kuu, aasta
+echo -n "Time is " #Prindib Time is
+date "+%T" #Prindib kella
+echo -n "Calendar of " #Prindib Calendar of
+cal #prindib kalendri
 #
 # Skript lõppes
 
