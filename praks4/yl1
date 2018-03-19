@@ -4,7 +4,7 @@
 #
 echo -n "Sisesta oma ees- ja perenimi: " #väljastab selle teksti
 read eesnimi perenimi #võtab ees  ja pere nime
-echo "Tere tulemast, $eesnimi $perenimi" #väljastab saadud andmed
+echo "Sinu eesnimi on $eesnimi ja perenimi on $perenimi" #väljastab saadud andmed
 #
 # Skript lõppes
 
