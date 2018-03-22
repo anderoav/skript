@@ -1,0 +1,12 @@
+#!/bin/bash
+#
+# Ülesanne2
+#
+echo -n "Sisesta 3 külge: "
+read a b c
+x1=`echo "scale=2;($a+$b+$c)/2" | bc` #arvutab pool kolmnurga ümbermõõtu
+x2=`echo "scale=2;sqrt ($x1*($x1-$a)*($x1-$b)*($x1-$c))" | bc` #arvutab välja pindala
+echo "x=$x2"
+#
+# Skript lõppes
+
