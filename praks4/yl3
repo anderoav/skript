@@ -1,0 +1,13 @@
+#!/bin/bash
+#
+# Ülesanne3
+#
+echo -n "Sisesta reisijate kogus: " #sisestad reisijate koguse
+read reisijad #loeb mis oli vastus
+echo -n "Kui palju on bussis istekohti?: " #sisestad istekohtade arvu
+read kohad #loeb mis oli vastus
+kokku=`expr $kohad - $reisijad` #arvutab palju maha jäi
+taidetud=`expr $reisijad / $kohad` #arvutab palju busse täideti
+echo "Täidetud busse on" `expr $taidetud` "maha jäi" `expr $kokku` "inimest" #annab lõpp vastuse
+# Skript lõppes
+
