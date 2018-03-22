@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# Ülesanne1
+#
+echo -n "Sisesta küljed: "
+read x1 x2
+ruut1=`echo "scale=2;($x1^2)" | bc` #arvutab x1 ruudus
+ruut2=`echo "scale=2;($x2^2)" | bc` #arvutab x2 ruudus
+ruut3=`echo "scale=2;($ruut1+$ruut2)" | bc` #arvutab nende summa
+x=`echo "scale=2;sqrt ($ruut3)" | bc` #arvutab ruutjuure
+echo "x = $x" #väljastab vastuse
+#
+# Skript lõppes
+
