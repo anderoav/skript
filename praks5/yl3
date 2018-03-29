@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+# Ülesanne3
+#
+echo "Pyhapaev 0, E 1, L 6"
+echo -n "Kuna ära sõidad?:"
+read algus
+echo -n "Oopaevade arv:"
+read paevad
+
+veel=$(($paevad % 7))
+tagasi=$(($algus + $veel))
+echo "Tagasi oled paeval $tagasi"
+#
+# Skript lõppes
+
