@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+# Ülesanne1
+#
+echo -n "Sisesta täisarv: "
+read arv
+vastus=$(($arv % 2)) #vastus 2-ga jagamisel
+if [ $vastus -eq 0 ]
+then
+echo "$arv on paaris" #kui on paaris siis väljastab selle
+else #kui midagi muud
+echo "$arv on paaritu" #paaritu siis väljastab selle
+fi
+#
+# Skript lõppes
+
