@@ -1,0 +1,23 @@
+#!/bin/bash
+#
+# Ülesanne1
+#
+echo -n "Sisesta vanus: "
+read vanus
+if test $vanus -gt 0 -a $vanus -lt 11
+then
+echo "Laps"
+elif test $vanus -ge 11 -a $vanus -lt 18
+then
+echo "Nooruk"
+elif test $vanus -ge 18 -a $vanus -lt 65
+then
+echo "Täiskasvanud"
+elif test $vanus -ge 65
+then
+echo "Senjoor"
+else
+echo "Vigane sisend"
+fi
+#
+# Skript lõppes
