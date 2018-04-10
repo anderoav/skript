@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# Ülesanne2
+#
+echo -n "Sisesta kuu: "
+read kuu
+if test $kuu  -eq 1
+then
+echo "Talv"
+elif test $kuu -eq 2
+then
+echo "Kevad"
+elif test $kuu -eq 3
+then
+echo "Suvi"
+elif test $kuu -eq 4
+then
+echo "Sygis"
+else
+echo "Vigane sisend"
+fi
+#skript lõppes
