@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+# Ülesanne1
+#
+summa=0
+for (( arv=1; arv<11; arv++ )) #arvud 1-10
+do
+	jaak=$(($arv % 2)) #jagamine
+	if [ $jaak -eq 0 ]; then
+		summa=$(($summa + $arv)) #liitmine
+		echo $summa
+	fi
+done
+echo "Arvude vahemikus 1-10(k.a) paarisarvude summa on: $summa"
+#
+# Skript lõppes
