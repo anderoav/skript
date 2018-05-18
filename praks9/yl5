@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+# Ülesanne5
+echo -n "Sisesta ridade arv: "
+read arv
+for((r=1; r<arv; r++))
+do # O kolmnurk
+ for((v=1; v<=($arv-1-$r); v++))
+ do
+  echo -n "o "
+ done # * kolmnurk
+ for((v=1; v<=$r; v++))
+ do
+  echo -n "* "
+ done
+ echo
+done
+
+# Skript lõppes
