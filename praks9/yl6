@@ -1,0 +1,30 @@
+#!/bin/bash
+#
+# Ülesanne6
+echo -n "Sisesta ridade arv: "
+
+read n
+
+for (( i = 1; i <= n; i++ ))
+
+do
+echo -n "$i."
+for (( k = i; k <= n; k++ ))
+
+do
+    echo -ne " "
+
+done
+
+
+for (( j = 1; j <= 2 * i - 1; j++ ))
+
+do
+
+    echo -ne "*"
+
+done
+echo " "
+
+done
+# Skript lõppes
